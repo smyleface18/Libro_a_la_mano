@@ -1,0 +1,5 @@
+para agregar un estilo a una etiqueta de html hacemos lo siguiente
+<p style="ponemos color, la backgrond ect"> </p>
+
+background= fondo
+color:#E09A0A

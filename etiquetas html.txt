@@ -1,0 +1,22 @@
+<title> nombre de la pagina
+<h1> titulo 
+<p> parrafo
+<h2> subtitulo; <h3> al <h6>;
+<head> cabeza
+<header> cabezera
+<nav> navegación
+<ul> listas desordenada
+<ol> lista ordenada
+<li> item de la lista
+<section> sección principla, contenido
+<article> articulo
+<time> como fecha
+<time datatime= "11/09/07" le digo al navegador la fecha
+<aside> contenido relacionado a la senction
+<footer> pie de pagina
+<hgroup> agrupar en cabezados para no estorbar la gerarquia
+<blockquote cite="www.yo no se"> citas, bibligrafia 
+<a href="direción" es un enlace
+<span> para estilos de una parte del texto
+<adress> para que el navegador sepa que es una dirrecón de internet
+<img src"donde esta la imagen"> imagenes

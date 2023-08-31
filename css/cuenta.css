@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.foto_perfil{
+    width: 160px;
+}
+.input_file{
+    background-color: #0A82E0;
+    border-radius:7px;
+    border-color: #0A82E0;
+}
+.loader_foto{
+    display: flex;
+     align-items:center;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.texto{
+    position: absolute;
+    margin-left:200px;
+    margin-top:1%;
+   
+}
+.fotolibro{
+    max-width:160px ;
+    border-radius: 7px;
+}
+.fotolibro:hover{
+    transform: scale(1.15);
+}    
+.publicaciones{
+    margin-top: 30px;
+    margin-left: 20%;
+    height:275px;
+    width:100%;
+    border-radius:7px;
+    min-width:300px ;
+}
+.publicaciones:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0)inset, 0 0 8px rgb(164, 164, 158);
+}
+.imgusuario{
+    width: 80px;
+    margin-left: 30%;
+}
+.contenedor_loader{
+    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0));
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagen_loader{
+    position:absolute;
+}
+.search{
+    border-top-style:outset ;
+    border-left-style:outset;
+    width:400px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border-color:#0A82E0 ;
+    background-color:rgb(253, 253, 253);
+    border-radius:15px;
+   
+}
+.impu{
+   
+    width: 400px;
+    padding: 100px;
+    margin:auto;
+    margin-top:100px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-family: 'Arial';
+   
+}
+.impu h3 {
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.registro{
+    border-top-style:outset ;
+    border-left-style:outset;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border-color:#0A82E0 ;
+    background-color:rgb(253, 253, 253);
+    border-radius:15px;
+}
+.hipertex{
+
+    color:#27353f;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:30px;
+}
+
+.contra{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border-color: aquamarine;
+    background-color:rgb(178, 216, 242);
+    margin-bottom: 16px;
+}
+.bodylogin{
+    display: flex;
+    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0)) ;
+    position: relative; 
+    padding-bottom: 3em;
+    min-height: 100vh; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0)) ;
+    margin: auto;
+    text-align:right;
+    border:20px;
+}
+.menu li a {
+    margin-top: 10px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding:  10px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin-top: 0%;
+}
+.menu li a:hover{
+    border-radius: 15px;
+    background-color: rgb(198, 181, 0);
+}
+.button{
+    color:white;
+    margin-top: 6px;
+    background-color:#0A82E0;
+    border-color: #0A82E0;
+    margin-left:27%;
+    width:100px;
+    height: 30px;
+   text-align: center;
+   border-radius: 15px;
+   border: solid; 
+
+}
+.button:hover{
+    transform: scale(1.12) ;
+}
+.warnings{
+    width: 200px;
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+}
+.footer{
+    margin-top:5%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0)) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside{
+    display:flex;
+    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0)) ;
+    display: inline-block;
+    width:25%;
+    position:fixed;
+    height: 70%;
+    margin-left:1%;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+.perfil
+{
+    list-style: none;
+    display: flex;
+    background-color: aliceblue;
+    width:500px;
+    height: 600px;
+    margin-top:5%;
+    border-radius: 15px;
+}
+.opciones_perfil{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+.opciones_perfil:hover{
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px #0A82E0 inset, 1px 1px 1px #0A82E0;
+}
