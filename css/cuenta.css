@@ -122,7 +122,7 @@
 }
 .bodylogin{
     display: flex;
-    background:linear-gradient(rgb(251, 247, 2),rgb(255, 179, 0)) ;
+    background:linear-gradient(FF16F4),rgb(255, 179, 0)) ;
     position: relative; 
     padding-bottom: 3em;
     min-height: 100vh; 
